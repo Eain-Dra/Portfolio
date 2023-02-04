@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color:whitesmoke;
+    margin:0;
+}
+.container{
+    width: 80%;
+    margin: 5% auto;
+}
+.alstom, .mu, .nstda, .star{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.alstom > div, .mu > div, .nstda > div, .star > div{
+    flex: 1;
+}
+.alstom > .period, .mu > .period, .nstda > .period, .star > .period{
+    text-align: center;
+    border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.alstom > .description, .mu > .description, .nstda > .description, .star > .description{
+    flex: 3;   
+}
+ul{
+    font-size: 14px;
+}
+a{
+    color: hotpink;
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+}
